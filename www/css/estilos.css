@@ -1,0 +1,107 @@
+h2, .titlePanel, h1 {
+  margin-top: 4px !important;
+  margin-bottom: 8px !important;
+}
+
+.muestras-tab {
+  position: relative;
+  min-height: 85vh;
+  width: 100%;
+}
+
+.fixed-box {
+  position: absolute !important;
+  width: 48.15vw; height: 20vw;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #007bc2;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.capture-btn-container {
+  position: fixed;
+  top: 20px; right: 20px;
+  z-index: 20;
+}
+
+.center-action-btn {
+  width: 100%;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.image-center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  min-height: 85vh;
+  padding: 20px;
+}
+
+.main-layout-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: -80px 0 0 20%;
+}
+
+.morph-label {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 8px 12px;
+  margin: 2px 0;
+  background: #337ab7;
+  color: white;
+  border-radius: 5px;
+  cursor: grab;
+  text-align: center;
+  user-select: none;
+}
+
+.ui-draggable-dragging {
+  z-index: 99999 !important;
+}
+
+.key-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.key-option {
+  width: 100%;
+  min-height: 55px;
+  white-space: normal !important;
+  text-align: left !important;
+  padding: 12px 15px;
+  background-color: #f8f9fa;
+  border: 2px solid #337ab7;
+  border-radius: 8px;
+  color: #333;
+}
+
+.key-option:hover {
+  background-color: #e7f1fb;
+  border-color: #23527c;
+}
+
+.identification-result {
+  padding: 20px;
+  background-color: #e8f5e9;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  text-align: center;
+}
