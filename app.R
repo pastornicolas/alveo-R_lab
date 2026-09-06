@@ -31,11 +31,6 @@ ui <- fluidPage(
                   estudio de organismos pertenecientes a Alveolata</span>')),
   style = "background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); min-height: 100vh; padding: 20px;",
   
-  # div(
-  #   style = "margin: -5px 0 25px 0; color: #444;",
-  #   p(style = "font-size: 1.05em;",
-  #     "Laboratorio virtual interactivo para el estudio de organismos pertenecientes a Alveolata")),
-  
   # Tabs principal
   tabsetPanel(
     type = "tabs",
