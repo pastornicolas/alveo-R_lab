@@ -10,7 +10,7 @@ server_ciclo <- function(input, output, session) {
       title = "Esquizonte",
       div(
         style = "max-height: 80vh; overflow: auto; text-align: center;",
-        tags$img(src = "plasmod/schiz.jpg",
+        tags$img(src = "samples/sample9.jpg",
                  style = "width: 100%; height: auto;")),
       easyClose = TRUE, footer = modalButton(label = "Cerrar"), size = "l"
     )
@@ -24,7 +24,7 @@ server_ciclo <- function(input, output, session) {
       title = "Gametocitos",
       div(
         style = "max-height: 80vh; overflow: auto; text-align: center;",
-        tags$img(src = "plasmod/game.jpg",
+        tags$img(src = "samples/sample28.jpg",
                  style = "width: 100%; height: auto;")),
       easyClose = TRUE, 
       footer = modalButton(label = "Cerrar"), size = "l"
@@ -39,7 +39,7 @@ server_ciclo <- function(input, output, session) {
       title = "Trofozoito Anillado",
       div(
         style = "max-height: 80vh; overflow: auto; text-align: center;",
-        tags$img(src = "plasmod/trofo.jpg",
+        tags$img(src = "samples/sample18.jpg",
                  style = "width: 100%; height: auto;")),
       easyClose = TRUE, 
       footer = modalButton(label = "Cerrar"), size = "l"

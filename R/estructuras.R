@@ -16,7 +16,7 @@ morphology <- list(
     "Hipoteca",
     "Cíngulo",
     "Surco longitudinal",
-    "Surco transversal",
+    #"Surco transversal",
     "Flagelo longitudinal"
   ),
   
