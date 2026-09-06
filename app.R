@@ -12,6 +12,7 @@ source("R/server_ciclo.R")
 # Definición UI ----
 ui <- fluidPage(
   tags$head(
+    tags$title("Alveo R Lab"),
     tags$link(
       rel = "stylesheet",
       href = "css/estilos.css"
@@ -25,7 +26,7 @@ ui <- fluidPage(
   ),
   
   ## Titulo ----
-  titlePanel("TP Nº 8 - Alveolata"),
+  titlePanel(HTML('<span style="font-style:italic;font-weight:bold;">Alveo R Lab</span>')),
   style = "background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); min-height: 100vh; padding: 20px;",
   
   # Tabs principal
