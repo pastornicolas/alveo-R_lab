@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Alveo R Lab
 
 Laboratorio virtual interactivo, desarrollado en Shiny R, para explorar
@@ -48,12 +42,12 @@ en el mosquito vector.
 
 Si encuentra un error o tiene alguna sugerencia para mejorar la
 aplicación puede comunicarse con el autor:
-[npastor\@unc.edu.ar](mailto:npastor@unc.edu.ar){.email}
+[npastor\@unc.edu.ar](mailto:npastor@unc.edu.ar)
 
 ------------------------------------------------------------------------
 
 ## Licencia
 
-© 2026 Nicolás Pastor. Bajo licencia [Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International
-License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+© 2026 Nicolás Pastor. Bajo licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
